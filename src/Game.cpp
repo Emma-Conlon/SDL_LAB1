@@ -41,7 +41,7 @@ void Game::proccesevents(SDL_Event event)
 
         if(event.type==SDL_KEYDOWN)
         {
-             m_gameIsRunning = false;
+             m_gameIsRunning = false;//done
         }
     }
     
