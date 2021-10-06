@@ -13,10 +13,11 @@ public:
 
 private:
 
-    void CAN();
+    void proccesevents(SDL_Event e);
     void update();
     void render();
-
+    SDL_Window *screen;
+    SDL_Renderer *renderer;
     void cleanUp();
 
     bool m_gameIsRunning;
